@@ -8,3 +8,6 @@ def test_generate_user():
     assert "first_name" in user
     assert "last_name" in user
     assert "id" in user
+    assert "phone" in user
+    assert "address" in user
+    assert "country" in user
